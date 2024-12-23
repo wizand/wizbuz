@@ -12,6 +12,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddOpenApi();
 
 builder.Services.AddMemoryCache();
+builder.Services.AddSingleton<WizCache>();
 
 var app = builder.Build();
 
@@ -100,10 +101,9 @@ app.MapPut("/setMessage", ([FromBody] MessageDto message, [FromServices] IMemory
     return message.Id;
 });
 
-app.MapPut("/registerListener", string ([FromBody] SetListenerDto listener, [FromServices] IMemoryCache cache) => 
+app.MapPut("/registerListener", string ([FromBody] SetListenerDto listener, [FromServices] WizCache cache) => 
 {
-
-    //TODO: Continue from here
+    cache.AddListener(listener);
     return null;
 });
 

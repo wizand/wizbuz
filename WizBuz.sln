@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizBuzConsoleClient", "WizBuzConsoleClient\WizBuzConsoleClient.csproj", "{698A8D5F-10F3-4899-9D5D-4613F36BF13E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizBuz", "WizBuz\WizBuz.csproj", "{EB5DC34B-A35E-4312-9108-01456AB5CB43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizBuzModels", "WizBuzModels\WizBuzModels.csproj", "{609979CB-BB00-4848-8975-ABCD201C673A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WizBuzServer", "WizBuzServer\WizBuzServer.csproj", "{3AD80BB7-7D61-420F-9D0D-CB4AB1F8DE81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{698A8D5F-10F3-4899-9D5D-4613F36BF13E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698A8D5F-10F3-4899-9D5D-4613F36BF13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698A8D5F-10F3-4899-9D5D-4613F36BF13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698A8D5F-10F3-4899-9D5D-4613F36BF13E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB5DC34B-A35E-4312-9108-01456AB5CB43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB5DC34B-A35E-4312-9108-01456AB5CB43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB5DC34B-A35E-4312-9108-01456AB5CB43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB5DC34B-A35E-4312-9108-01456AB5CB43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{609979CB-BB00-4848-8975-ABCD201C673A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{609979CB-BB00-4848-8975-ABCD201C673A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{609979CB-BB00-4848-8975-ABCD201C673A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{609979CB-BB00-4848-8975-ABCD201C673A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD80BB7-7D61-420F-9D0D-CB4AB1F8DE81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD80BB7-7D61-420F-9D0D-CB4AB1F8DE81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD80BB7-7D61-420F-9D0D-CB4AB1F8DE81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD80BB7-7D61-420F-9D0D-CB4AB1F8DE81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

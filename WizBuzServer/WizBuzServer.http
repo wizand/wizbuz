@@ -1,0 +1,6 @@
+@WizBuzServer_HostAddress = http://localhost:5177
+
+GET {{WizBuzServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
